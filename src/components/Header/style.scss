@@ -1,0 +1,14 @@
+.wrapperHeader {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+  width: 100%;
+  background: rgb(24, 77, 71);
+  background: linear-gradient(
+    112deg,
+    rgba(24, 77, 71, 1) 51%,
+    rgba(150, 187, 124, 1) 62%
+  );
+}

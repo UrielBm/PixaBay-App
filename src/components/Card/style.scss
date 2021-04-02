@@ -1,0 +1,81 @@
+.Card {
+  width: 340px;
+  padding: 1rem 0.5rem;
+  border: 1px solid rgba(150, 187, 124, 1) 62%;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+  border-radius: 2rem;
+  box-shadow: 5px 5px 10px rgb(24, 77, 71);
+  .wrapperImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 3rem;
+    box-sizing: border-box;
+    .img {
+      width: 100%;
+      border-radius: 1rem;
+    }
+  }
+  .wrapperData {
+    .wrapperGeneralInfo {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    .wrapperInfo {
+      display: flex;
+      justify-content: space-around;
+      .wrappericons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .icon {
+          width: 1.5rem;
+          margin-right: 0.3rem;
+        }
+        .data {
+          font-size: 1.5rem;
+          color: #c64756;
+
+          font-weight: 700;
+        }
+      }
+    }
+    .wrapperButton {
+      padding: 1rem 2rem;
+      display: flex;
+      box-sizing: border-box;
+      justify-content: center;
+      align-items: center;
+      .buttonImg {
+        padding: 0.6rem 1rem;
+        width: 100%;
+        text-decoration: none;
+        color: black;
+        background-color: #c64756;
+        border-radius: 2rem;
+        text-align: center;
+        outline: none;
+        transition: background-color 0.3s ease;
+        &:hover {
+          background-color: #741b26;
+          color: #fff;
+        }
+        &:visited {
+          background-color: #833941;
+          color: #fff;
+        }
+      }
+    }
+  }
+  .text {
+    font-size: 1rem;
+    font-weight: 300;
+    &::first-letter {
+      color: #c64756;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+  }
+}
